@@ -1,6 +1,6 @@
 # wired-brain-recipes
 This README is for the Pluralsight couse Getting Started with Git 2.
-These commands were used during the course:
+These commands were covered during the course:
 
 config --list
 init
@@ -30,5 +30,7 @@ stash
 stash list
 stash show
 merge <branch-name>
-reset --mixed
+reset --soft (move commit(s) into staging area)
+reset --mixed (move changes to working directory)
+reset --hard (moves changes to the trash)
 clone https://github.com/<username>/<repo-name>.git
